@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account login | JS </title>
+
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+<div id="container">
+   <div class="inputdata"> 
+        <label>Username</label>
+        <input type="text" name="" id="name" required><br>
+        <label id="namedata"></label>
+    
+   </div>
+   <div class="inputdata"> 
+        <label>Password</label>
+        <input type="password" name="" id="pass" required>
+        <label id="passdata"></label>
+    </div>
+    
+    <div class="btn">
+        <button class="btnn" type="submit" onclick="check()">Submit</button>
+        <button class="btnn" type="button" onclick="window.location.reload(true)">Reload</button>
+    </div>
+</div>
+
+<label id="login"></label>
+
+<script src="./index.js"></script>
+</body>
+</html>

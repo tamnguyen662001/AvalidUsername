@@ -1,0 +1,38 @@
+
+/* CSS for form */
+#container{
+    margin: 200px auto;
+    /* background: white; */
+    width: 550px;
+}
+
+
+
+/* CSS for content */
+.inputdata{
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+}
+label{
+    margin:0 15px;
+    min-width: 100px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+input{
+    height: 30px !important;
+    transform: translateY(21%);
+    margin-right: 10px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.btnn{
+    outline: none;
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    font-weight: 600;
+}
